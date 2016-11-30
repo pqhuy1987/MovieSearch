@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,11 +21,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reel" translatesAutoresizingMaskIntoConstraints="NO" id="mBy-yG-NKw">
+                                <rect key="frame" x="113" y="259" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="9eP-jI-FtN"/>
+                                    <constraint firstAttribute="height" constant="150" id="9eP-jI-FtN"/>
                                     <constraint firstAttribute="width" constant="120" id="Hnh-DU-5B6"/>
                                     <constraint firstAttribute="height" constant="120" id="Hp3-6z-R83"/>
-                                    <constraint firstAttribute="width" constant="80" id="xa7-D6-G0r"/>
+                                    <constraint firstAttribute="width" constant="150" id="xa7-D6-G0r"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -33,19 +36,20 @@
                                 </variation>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.46666666670000001" green="0.70196078429999997" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.2499468537" green="0.7337903912" blue="0.70262011049999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="mBy-yG-NKw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="112" id="WWO-lV-6bZ"/>
+                            <constraint firstItem="mBy-yG-NKw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JC0-H9-Omb"/>
                             <constraint firstItem="mBy-yG-NKw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fhM-Zf-9nS"/>
+                            <constraint firstItem="mBy-yG-NKw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x9c-ls-tVD"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
-        <image name="reel" width="129" height="129"/>
+        <image name="reel" width="640" height="512"/>
     </resources>
 </document>
